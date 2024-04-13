@@ -35,8 +35,12 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+      - name: Remove node_modules and package-lock.json
+        run: |
+          rm -rf node_modules
+          rm package-lock.json
       - name: Install dependencies
-        run: npm ci --force
+        run: npm install --force
       - name: Build
         run: npm run build
       - name: Setup Pages
