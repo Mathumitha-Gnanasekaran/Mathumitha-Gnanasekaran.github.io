@@ -5,8 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  next,
   reactjs,
   redux,
   tailwind,
@@ -22,6 +21,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  nest,
 } from "../assets";
 
 import { contact, github, linkedin } from "../assets/icons";
@@ -67,12 +67,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Next js",
+    icon: next,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Nest js",
+    icon: nest,
   },
   {
     name: "JavaScript",
