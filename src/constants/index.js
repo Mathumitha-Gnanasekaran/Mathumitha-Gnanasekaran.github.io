@@ -126,7 +126,7 @@ const experiences = [
     company_name: "ASTA",
     icon: Asta,
     iconBg: "#383E56",
-    date: "July 2024 - Present",
+    date: "July 2024 - December 2024",
     points: [
       "Successfully developed and integrated features, such as dynamic pricing toggles, advanced comparison tables, and animated UI elements, ensuring seamless user experiences.",
       "Designed and implemented APIs using Nest.js and Sequelize to efficiently handle database operations and enable feature-rich user interfaces in Next.js projects.",
